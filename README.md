@@ -6,7 +6,9 @@ App development framework based on cocos creator3.1.1
 
 关键词：cocos creator、应用开发、App开发、游戏开发、跨平台、框架
 
-    cocos creator是一个开源的游戏开发引擎，在游戏开发方面，拥有大量开发者。然而在应用App方面，却少有人使用，cx-cocos的出现，填补了cocos creator在应用App开发上的空白。
+    cocos creator是一个开源的游戏开发引擎，在游戏开发方面，拥有大量开发者。
+    然而在应用App方面，却少有人使用，cx-cocos的出现，
+    填补了cocos creator在应用App开发上的空白。
 
    使用cx-cocos，你可以轻松愉快地开发出一个跨平台应用App，包括ios、mac、android、web等，当然你也可以使用cx-cocos开发游戏，这是一个高效简洁的开发框架，极大提升开发者的效率。
 
@@ -164,8 +166,10 @@ NativeIntf.callJs("className", int, string);
 
 ### 1.4 真正的启动屏
 ----
-    cocos creator提供了一个定时长的启动画面，你无法在首页渲染完成后再移除画面，也无法提前移除。并且它只能在加载cc.js之后显示，而不是在App真正启动时。
-    cx-cocos针对iOS/mac和Android，提供了原生的启动画面处理，你可以在App启动时显示，在任意时刻移除。
+    cocos creator提供了一个定时长的启动画面，你无法在首页渲染完成后再移除画面，也无法提前移除。
+    并且它只能在加载cc.js之后显示，而不是在App真正启动时。
+    cx-cocos针对iOS/mac和Android，提供了原生的启动画面处理，
+    你可以在App启动时显示，在任意时刻移除。
 
 iOS/mac启动屏实现代码：见demo中的AppController.mm  
 android启动屏实现代码：见demo中的CocosActivity.java  
@@ -264,7 +268,9 @@ cx.removeLaunchImage();
 * 建议你使用cocos creator3.1.1 (2021.06.01发布)
 * 如果你使用的是creator3.1.0，可能需要重新编译cx-framework3.1中.so和.a
   重新编译前，可使用vscode编辑器，查找3.1.1，全部替换成3.1.0 
-* 如果你使用的是creator3.0.x，那么cx-framework3.1中的libs工程不适用，你需要从creator构建生成的项目中，提取cocos2d（支持3.0.x的框架我并未上传至git，如有需要请联系我）
+* 如果你使用的是creator3.0.x，那么cx-framework3.1中的libs工程不适用，
+  你需要从creator构建生成的项目中，提取cocos2d
+  （支持3.0.x的框架我并未上传至git，如有需要请联系我）
 ```
 2. 拷贝cx3-demo中的tsconfig.json文件和project目录到你的项目目录下  
 ```typescript
@@ -289,4 +295,4 @@ cx.removeLaunchImage();
   
   
 ## 5 问题和技术支持
-
+https://forum.cocos.org/t/topic/114696
