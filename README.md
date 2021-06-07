@@ -1,6 +1,7 @@
 todo: Waiting for English translation
 
 # cx-cocos
+App development framework based on cocos creator3.1.1  
 **一个基于cocos creator3.1.1的应用App和游戏开发框架**
 
 关键词：cocos creator、应用开发、App开发、游戏开发、跨平台、框架
