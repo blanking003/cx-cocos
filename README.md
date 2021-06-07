@@ -89,7 +89,7 @@ myClick(sender, p1, p2, p3)
     //sender = lblTitle
     //p1 = 1
     //p2 = "a"
-    //p3 = {remark:"任意类型和数量的参数"}
+    //p3 = {tip:"任意类型和数量的参数"}
 }
 
 cx.showPage("ui/pageChild"); //显示ui/pageChild.prefab
@@ -112,21 +112,21 @@ cx.script.pageView.initAutoScroll(this, "viewBanner", 2, true, this.onBannerClic
 
 |  资源常用方法   | 说明   |
 |  ----  | ----  |
-| cx.setImageFromRes(spriteOrNode, prefab, sizeMode?, callback?)  | 给节点设置图片(从resources) |
-| cx.setImageFromBundle(spriteOrNode, prefab, sizeMode?, callback?)  | 给节点设置图片(从bundle)  |
-| cx.setImageFromRemote(spriteOrNode, url, localPath?, sizeMode?, callback?)  | 给节点设置图片(从远程url，存储至本地localPath，并优先从localPath加载图片) |
-| cx.loadBundleRes(prefab, callback?)  | 加载1个或多个prefab |
+| cx.res.setImageFromRes(spriteOrNode, prefab, sizeMode?, callback?)  | 给节点设置图片(从resources) |
+| cx.res.setImageFromBundle(spriteOrNode, prefab, sizeMode?, callback?)  | 给节点设置图片(从bundle)  |
+| cx.res.setImageFromRemote(spriteOrNode, url, localPath?, sizeMode?, callback?)  | 给节点设置图片(从远程url，存储至本地localPath，并优先从localPath加载图片) |
+| cx.res.loadBundleRes(prefab, callback?)  | 加载1个或多个prefab |
 |   |  |
 
 
 |  远程访问常用方法   | 说明   |
 |  ----  | ----  |
-| cx.call(url, callback?, context?)  | 调用服务端服务(call方式) |
-| cx.post(url, data?, callback?, context?)  | 调用服务端服务(post方式) |
-| cx.upload(url, filePath, callback?)  | 调用服务端服务，上传文件  |
-| cx.setCommonHeaders(headers: string[])  | 设置http请求的默认headers |
-| cx.loadFile(url, localPath?, callback?)  | 从url加载文件，存储至本地并优先从本地加载 |
-| cx.loadAsset(url: string, callback?)  | 从url加载Asset  |
+| cx.serv.call(url, callback?, context?)  | 调用服务端服务(call方式) |
+| cx.serv.post(url, data?, callback?, context?)  | 调用服务端服务(post方式) |
+| cx.serv.upload(url, filePath, callback?)  | 调用服务端服务，上传文件  |
+| cx.serv.setCommonHeaders(headers: string[])  | 设置http请求的默认headers |
+| cx.serv.loadFile(url, localPath?, callback?)  | 从url加载文件，存储至本地并优先从本地加载 |
+| cx.serv.loadAsset(url: string, callback?)  | 从url加载Asset  |
 |   |  |
 
 
