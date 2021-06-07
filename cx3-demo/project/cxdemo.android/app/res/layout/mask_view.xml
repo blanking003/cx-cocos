@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#60A7C6FC">
+
+    <FrameLayout
+        android:id="@+id/contentView"
+        android:layout_width="157dp"
+        android:layout_height="561dp" android:background="#ff0000FC" android:clipChildren="false" android:clipToPadding="false">
+
+        <FrameLayout
+            android:id="@+id/contentView1"
+            android:layout_width="355dp"
+            android:layout_height="517dp" android:background="#FC5800">
+            <view android:layout_width="285dp" android:layout_height="354dp">
+                <view android:layout_width="222dp" android:layout_height="222dp">
+
+                </view>
+            </view>
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="dddddddddddddddddddddddddddddddddddddaa"/>
+        </FrameLayout>
+    </FrameLayout>
+
+</FrameLayout>

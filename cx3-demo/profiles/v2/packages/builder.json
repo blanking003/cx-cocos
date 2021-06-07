@@ -1,0 +1,74 @@
+{
+  "__version__": "1.2.8",
+  "common": {
+    "outputName": "android",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "android",
+    "buildPath": "project://native",
+    "replaceSplashScreen": true,
+    "debug": true
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1622797274066": {
+        "id": "1622797274066",
+        "progress": 1,
+        "state": "success",
+        "message": "2021-6-7 12:08 Build success in 20653 ms!",
+        "options": {
+          "packages": {
+            "ios": {
+              "packageName": "com.cocos.cx3-demo",
+              "orientation": {
+                "landscapeRight": false,
+                "landscapeLeft": false,
+                "portrait": true
+              },
+              "renderBackEnd": {
+                "metal": true,
+                "gles3": false
+              }
+            },
+            "native": {
+              "polyfills": {
+                "asyncFunctions": false
+              },
+              "encrypted": false,
+              "xxteaKey": "daQAcUmotNh4cSQ3",
+              "compressZip": false,
+              "makeAfterBuild": false
+            },
+            "cocos-service": {
+              "configID": "389e04",
+              "services": []
+            }
+          },
+          "name": "cx3-demo",
+          "platform": "ios",
+          "buildPath": "project://native",
+          "debug": true,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": true,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "272a8bdc-517b-4554-ba44-1c6f7f3e8456",
+          "scenes": [
+            {
+              "url": "db://assets/scene/mainScene.scene",
+              "uuid": "272a8bdc-517b-4554-ba44-1c6f7f3e8456",
+              "inBundle": false
+            }
+          ],
+          "outputName": "ios"
+        },
+        "time": "2021-6-7 12:08",
+        "dirty": false
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+
+    android:orientation="vertical" >
+    <!--android:background="@color/mediacontroller_bg"-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="visible"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/mediacontroller_time_current"-->
+            <!--style="@style/MediaController_Text"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="00:00" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/mediacontroller_time_total"-->
+            <!--style="@style/MediaController_Text"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="30dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="right"-->
+            <!--android:text="22:33" />-->
+    <!--</LinearLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/mediacontroller_play_pause"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:background="@drawable/mediacontroller_button"-->
+            <!--android:contentDescription="@string/mediacontroller_play_pause"-->
+            <!--android:src="@drawable/mediacontroller_pause" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/mediacontroller_play_fs"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:background="@drawable/mediacontroller_change_size"-->
+            <!--android:visibility="visible" />-->
+
+        <!--<org.cocos2dx.lib.MySeekBar-->
+            <!--android:id="@+id/mediacontroller_seekbar"-->
+            <!--style="@style/MediaController_SeekBar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_toLeftOf="@id/mediacontroller_play_fs"-->
+            <!--android:layout_toRightOf="@id/mediacontroller_play_pause"-->
+            <!--android:focusable="true"-->
+            <!--android:max="1000" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/mediacontroller_file_name"-->
+        <!--style="@style/MediaController_Text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:ellipsize="marquee"-->
+        <!--android:singleLine="true" />-->
+
+</LinearLayout>

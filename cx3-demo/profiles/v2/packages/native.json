@@ -1,0 +1,31 @@
+{
+  "options": {
+    "ios": {
+      "polyfills": {
+        "asyncFunctions": false
+      },
+      "encrypted": false,
+      "xxteaKey": "daQAcUmotNh4cSQ3",
+      "compressZip": false,
+      "makeAfterBuild": false
+    },
+    "mac": {
+      "polyfills": {
+        "asyncFunctions": false
+      },
+      "encrypted": false,
+      "xxteaKey": "daQAcUmotNh4cSQ3",
+      "compressZip": false,
+      "makeAfterBuild": false
+    },
+    "android": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "encrypted": false,
+      "xxteaKey": "daQAcUmotNh4cSQ3",
+      "compressZip": false,
+      "makeAfterBuild": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "options": {
+    "web-desktop": {
+      "configID": "389e04",
+      "services": []
+    },
+    "ios": {
+      "configID": "389e04",
+      "services": []
+    },
+    "mac": {
+      "configID": "389e04",
+      "services": []
+    },
+    "android": {
+      "configID": "389e04",
+      "services": []
+    }
+  },
+  "builder-options": {
+    "configID": "389e04",
+    "services": []
+  }
+}

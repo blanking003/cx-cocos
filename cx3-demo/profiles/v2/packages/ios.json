@@ -1,0 +1,11 @@
+{
+  "options": {
+    "ios": {
+      "orientation": {
+        "portrait": true,
+        "landscapeLeft": false,
+        "landscapeRight": false
+      }
+    }
+  }
+}
