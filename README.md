@@ -132,7 +132,7 @@ cx.script.pageView.initAutoScroll(this, "viewBanner", 2, true, this.onBannerClic
 
 |  utils常用方法   | 说明   |
 |  ----  | ----  |
-| cx.utils.xxx  | cx.func中定义了常用的工具方法，如时间等，具体参见cx.d.ts |
+| cx.utils.xxx  | cx.utils中定义了常用的工具方法，如时间等，具体参见cx.d.ts |
 |   |  |
 
 
